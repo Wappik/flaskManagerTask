@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock title %}</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+
+    <div class="menu">
+        <div class="control">
+            <div class="logo">
+                <div class="circle_logo">
+                    <p>M</p>
+                </div>
+                <p>Manager Task</p>
+            </div>
+    
+            <ui>
+                <a href="">
+                    <li>
+                        <div class="li_obj">
+                            <img src="../static/images/tasks_img.png" alt="">
+                            <p>Задачи</p> 
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <div class="li_obj">
+                            <img src="../static/images/tasks_img.png" alt="">
+                            <p>Задачи</p> 
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <div class="li_obj">
+                            <img src="../static/images/tasks_img.png" alt="">
+                            <p>Задачи</p> 
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <div class="li_obj">
+                            <img src="../static/images/tasks_img.png" alt="">
+                            <p>Задачи</p> 
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <div class="li_obj">
+                            <img src="../static/images/tasks_img.png" alt="">
+                            <p>Задачи</p> 
+                        </div>
+                    </li>
+                </a>
+            </ui>
+        </div>
+    </div>
+    <div class="content">
+        {% block content %}{% endblock content %}
+    </div>
+
+
+
+</body>
+</html>
