@@ -69,13 +69,18 @@
     text-decoration: none;
 }
 
-/* .control ui a img {
-    float: left;
-    height: 45px;
-    width: 45px;
-} */
+.control ui a .li_obj li {
+    list-style: none;
 
-.control ui a li {
+    color: black;
+    height: 45px;
+    width: 325px;
+    border-radius: 18px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.control a {
     list-style: none;
 
     color: black;
@@ -85,24 +90,27 @@
     background-color: #fff;
 }
 
-.control ui a li .li_obj {
+.control a .li_obj {
     height: 45px;
     width: 355px;
     background-color: #fff;
+    margin-bottom: 60px;
+
 }
 
-.control ui a li .li_obj :hover {
+.control a .li_obj :hover {
+    /* background-color: #F3F3FB; */
     background-color: #F3F3FB;
 }
 
 
-.control ui a li .li_obj img {
+.control ui a .li_obj li img {
     float: left;
     height: 45px;
     width: 45px;
 }
 
-.control ui a li .li_obj p {
+.control ui a .li_obj li p {
     float: left;
     line-height: 45px;
     margin-left: 25px;
